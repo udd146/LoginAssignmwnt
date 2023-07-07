@@ -1,0 +1,97 @@
+body
+{
+   
+  background-color:  rgb(255, 235, 233);
+  }
+ 
+.Login_details{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 15px solid  rgb(246, 209, 203);
+  box-shadow: 15px 15px 15px 15px rgba(0, 0, 0, 0.2);
+  
+  /* height: 1200px; */
+  width: 800px;
+  text-align: center;
+  background-color:    white;
+  /* opacity: 0.7; */
+  color: rgb(30, 48, 106);
+  font-family:  cursive;
+  /* font-size: 20px; */
+ 
+  
+  }
+.parent-container {
+    position: relative; 
+    height: 1200px;
+    overflow: auto;
+  }
+  
+ .EmailClass
+ {
+  padding: 10px;
+  /* display: grid;
+  place-items: center;
+  /* border: 1px solid black; */
+  /* font-size: 20px; */ 
+  
+} 
+.form_Error
+{
+  color: rgb(236, 59, 59);
+  font-size: 12px;
+}
+.LoginButton
+{
+  padding: 5px;
+  margin: 10px;
+  width: 120px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  background-color:  rgb(235, 215, 106);;
+  border-radius: 10px;
+}
+.Phone
+{
+  display: flex;
+  margin-left: 250px;
+}
+.ForgetPass
+{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 15px solid  rgb(246, 209, 203);
+  box-shadow: 15px 15px 15px 15px rgba(0, 0, 0, 0.2);
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  font-family: cursive ;
+  color: rgb(30, 48, 106);
+}
+.InputLabel
+{
+  padding: 3px;
+  margin: 10px;
+  width: 300px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+.LabelStyle
+{
+  font-size: 18px;
+  padding: 5px;
+}
+.InputLabel2
+{
+  padding: 3px;
+  margin: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 200px;
+  font-size: 14px;
+  background-color:  rgb(235, 215, 106);;
+  border-radius: 10px;
+}

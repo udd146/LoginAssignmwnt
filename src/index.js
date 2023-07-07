@@ -1,0 +1,33 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import reportWebVitals from './reportWebVitals';
+import LoginPage from './loginPage';
+import UserForm from './UserForm';
+import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import ForgetPassword from './ForgetPassword';
+ 
+ 
+const appRouter = createBrowserRouter([
+  {
+    path: "/", // show path for routing
+    element: <LoginPage />, // show component for particular path
+     
+  },
+  {
+    path: "/UserForm",
+    element:<UserForm/>
+  },
+  {
+    path:"/forget",
+    element:<ForgetPassword/>
+  }
+
+])
+    
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<RouterProvider router={appRouter} />);
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
